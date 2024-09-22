@@ -1,0 +1,14 @@
+name: Test workflow
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  date:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print date to console
+        run: date +"%d/%m/%Y"
