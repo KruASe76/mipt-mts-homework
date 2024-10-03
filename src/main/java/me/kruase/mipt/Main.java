@@ -1,12 +1,12 @@
-package me.kruase.mipt_mts_homework;
+package me.kruase.mipt;
 
+import me.kruase.mipt.animals.Dolphin;
+import me.kruase.mipt.animals.Eagle;
+import me.kruase.mipt.animals.Horse;
+import me.kruase.mipt.food.Beef;
+import me.kruase.mipt.food.Fish;
+import me.kruase.mipt.food.Grass;
 
-import me.kruase.mipt_mts_homework.animals.Dolphin;
-import me.kruase.mipt_mts_homework.animals.Eagle;
-import me.kruase.mipt_mts_homework.animals.Horse;
-import me.kruase.mipt_mts_homework.food.Beef;
-import me.kruase.mipt_mts_homework.food.Fish;
-import me.kruase.mipt_mts_homework.food.Grass;
 
 public class Main {
     public static void main(String[] args) {

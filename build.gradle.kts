@@ -12,7 +12,7 @@ java {
 }
 
 application {
-    mainClass = "me.kruase.mipt_mts_homework.Main"
+    mainClass = "me.kruase.mipt.Main"
 }
 
 

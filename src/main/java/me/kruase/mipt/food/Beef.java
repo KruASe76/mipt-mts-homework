@@ -1,6 +1,6 @@
-package me.kruase.mipt_mts_homework.food;
+package me.kruase.mipt.food;
 
-import me.kruase.mipt_mts_homework.food.abc.Meat;
+import me.kruase.mipt.food.abc.Meat;
 
 public class Beef extends Meat {
     public Beef(int mass) {

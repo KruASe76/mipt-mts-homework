@@ -1,6 +1,6 @@
-package me.kruase.mipt_mts_homework.animals.interfaces.food;
+package me.kruase.mipt.animals.interfaces.food;
 
-import me.kruase.mipt_mts_homework.food.abc.Food;
+import me.kruase.mipt.food.abc.Food;
 
 
 public interface Eater<F extends Food> {

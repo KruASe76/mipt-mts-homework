@@ -1,7 +1,7 @@
-package me.kruase.mipt_mts_homework.food;
+package me.kruase.mipt.food;
 
 
-import me.kruase.mipt_mts_homework.food.abc.Food;
+import me.kruase.mipt.food.abc.Food;
 
 public class Grass extends Food {
     public Grass(int mass) {
