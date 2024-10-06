@@ -126,14 +126,14 @@ public class CustomArrayList<E> implements CustomList<E> {
      */
     @Override
     public @NotNull E remove(int index) throws IndexOutOfBoundsException {
-        E element = get(index);
+        E removedElement = get(index);
 
         for (int i = index; i < size - 1; i++) {
             elements[i] = elements[i + 1];
         }
 
         size--;
-        return element;
+        return removedElement;
     }
 
     /**
