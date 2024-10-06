@@ -148,7 +148,7 @@ public class CustomArrayList<E> implements CustomList<E> {
     }
 
     /**
-     * Expands internal arrays to twice it initial size
+     * Expands the internal array to twice its initial size
      * (so appending an element has constant amortized complexity)
      */
     private void grow() {
