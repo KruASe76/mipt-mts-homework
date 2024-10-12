@@ -1,4 +1,4 @@
-name: Test workflow
+name: Gradle build
 
 on:
   push:
@@ -7,8 +7,17 @@ on:
     branches: [ "main" ]
 
 jobs:
-  date:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print date to console
-        run: date +"%d/%m/%Y"
+      - name: Checkout sources
+        uses: actions/checkout@v4
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: corretto
+          java-version: 17
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+      - name: Build with Gradle
+        run: ./gradlew build
